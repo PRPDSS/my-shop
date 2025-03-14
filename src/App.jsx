@@ -5,9 +5,11 @@ import Brightness7Icon from '@mui/icons-material/Brightness7';
 import ProductList from './components/ProductList';
 import Cart from './components/Cart';
 import { ThemeContext } from './context/ThemeContext';
+
 function App() {
   const theme = useTheme();
   const { toggleTheme } = useContext(ThemeContext);
+  
   return (
     <Container>
       <Typography variant="h3" component="h1" align="center" sx={{ my: 4 }}>
