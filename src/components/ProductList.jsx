@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { loadProducts, setCategory, setSortBy, setSearchQuery } from
-    '../features/productsSlice';
+import { loadProducts, setCategory, setSortBy, setSearchQuery } from '../features/productsSlice';
 import ProductCard from './ProductCard';
 import FilterPanel from './FilterPanel';
 import SortPanel from './SortPanel';

@@ -1,8 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, clearCart } from '../features/cartSlice';
-import { Card, CardContent, Typography, Button, List, ListItem, ListItemText } from
-    '@mui/material';
+import { Card, CardContent, Typography, Button, List, ListItem, ListItemText } from '@mui/material';
 import { motion } from 'framer-motion';
 const Cart = () => {
     const dispatch = useDispatch();
